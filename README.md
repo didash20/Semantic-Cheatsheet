@@ -1,5 +1,5 @@
 # My Own Cheat Sheet
-This is a cheat sheet created in HTML with some of the concepts I have learned so far from HTML and CSS to help anyone build more websites in the future!
+This is a semantic cheatsheet for HTML and CSS with concepts I have learned so far. This cheatsheet was created with those same tools to help anyone build more websites with semantic structure in the future!
 
 
 ## Table of contents
