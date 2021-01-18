@@ -58,7 +58,7 @@
       </p>
     </section>
 
-    <!--Placement of sectioning elements-->
+    <!--Sectioning elements table-->
     <section>
       <h3>Sectioning Elements</h3>
       <figure>
@@ -87,8 +87,8 @@
               <td>
                 <ul>
                   <li>Company’s logo</li>
-                  <li>navigational aids</li>
-                  <li>author information</li>
+                  <li>Navigational aids</li>
+                  <li>Author information</li>
                 </ul>
               </td>
             </tr>
@@ -104,8 +104,8 @@
               <td>
                 <ul>
                   <li>Copyright notices</li>
-                  <li>footer navigation</li>
-                  <li>author bios</li>
+                  <li>Footer navigation</li>
+                  <li>Author bios</li>
                 </ul>
               </td>
             </tr>
@@ -121,8 +121,8 @@
               <td>
                 <ul>
                   <li>Advertisements</li>
-                  <li>highlighting definitions</li>
-                  <li>quotations</li>
+                  <li>Highlighting definitions</li>
+                  <li>Quotations</li>
                 </ul>
               </td>
             </tr>
@@ -137,8 +137,8 @@
               <td>
                 <ul>
                   <li>Main site navigation</li>
-                  <li>links to related pages</li>
-                  <li>tables of content</li>
+                  <li>Links to related pages</li>
+                  <li>Tables of content</li>
                 </ul>
               </td>
             </tr>
@@ -155,8 +155,8 @@
               <td>
                 <ul>
                   <li>Text</li>
-                  <li>figures</li>
-                  <li>tables</li>
+                  <li>Figures</li>
+                  <li>Tables</li>
                 </ul>
               </td>
             </tr>
@@ -173,24 +173,156 @@
               <td>
                 <ul>
                   <li>Text</li>
-                  <li>figures</li>
-                  <li>tables</li>
+                  <li>Figures</li>
+                  <li>Tables</li>
                 </ul>
               </td>
             </tr>
   
+          </tbody>
+        </table>
+        <figcaption>Table 1: The main sectioning elements of web pages</figcaption>
+      </figure>
+    </section>
+
+    <!--Other semantic elements table-->
+    <section>
+      <h3>Other Semantic Elements</h3>
+      <figure>
+        <table>
+  
+          <!--Table Headers-->
+          <thead>
+            <tr>
+              <th>Element</th>
+              <th>Purpose</th>
+              <th>Attributes</th>
+              <th width="200px">Content</th>
+            </tr>
+          </thead>
+  
+          <tbody>
+  
             <!--Figure Element-->
             <tr>
               <td><code>&lt;figure&gt;</code></td>
-              <td>Inside other sectioning element</td>
               <td>
                 Represents a self-contained "figure" used to encapsulate media.
               </td>
+              <td></td>
               <td>
                 <ul>
                   <li>Images</li>
                   <li>Tables</li>
                   <li>Diagrams</li>
+                </ul>
+              </td>
+            </tr>
+  
+            <!--Figcaption Element-->
+            <tr>
+              <td><code>&lt;figcaption&gt;</code></td>
+              <td>
+                Used to describe the media within the <code>&lt;figure&gt;</code> element.
+              </td>
+              <td></td>
+              <td>
+                <ul>
+                  <li>Media's type</li>
+                  <li>Media's description</li>
+                </ul>
+              </td>
+            </tr>
+  
+            <!--Video Element-->
+            <tr>
+              <td><code>&lt;video&gt;</code></td>
+              <td>
+                Used to embed video content into a document. Uses the <code>src</code>
+                attribute or the element <code>&lt;source&gt;</code> to embed.
+              </td>
+              <td>
+                <code>controls</code><br>
+                <code>autoplay</code><br>
+                <code>loop</code>
+              </td>
+              <td>
+                <ul>
+                  <li>Video</li>
+                </ul>
+              </td>
+            </tr>
+  
+            <!--Audio Element-->
+            <tr>
+              <td><code>&lt;audio&gt;</code></td>
+              <td>
+                Used to embed audio content into a document. Uses the <code>src</code>
+                attribute or the element <code>&lt;source&gt;</code> to embed.
+              </td>
+              <td>
+                <code>controls</code><br>
+                <code>autoplay</code><br>
+                <code>loop</code>
+              </td>
+              <td>
+                <ul>
+                  <li>Audio</li>
+                </ul>
+              </td>
+            </tr>
+  
+            <!--Embeded-->
+            <tr>
+              <td><code>&lt;embeded&gt;</code></td>
+              <td>
+                Can embed any media content from an external source. <br>
+                <em>*Note that it is a deprecated tag</em>
+              </td>
+              <td></td>
+              <td>
+                <ul>
+                  <li>Audio</li>
+                  <li>Video</li>
+                  <li>GIFs</li>
+                </ul>
+              </td>
+            </tr>
+  
+            <!--Time Element-->
+            <tr>
+              <td><code>&lt;time&gt;</code></td>
+              <td>
+                Represents either a time of day or a calendar date. It makes 
+                it possible for browsers to link it to users’ calendars and 
+                helps search engines identify dates.
+              </td>
+              <td>
+                <code>datetime</code>
+              </td>
+              <td>
+                <ul>
+                  <li>Time of day</li>
+                  <li>Calendar date</li>
+                  <li>Any datetime</li>
+                </ul>
+              </td>
+            </tr>
+  
+            <!--Address Element-->
+            <tr>
+              <td><code>&lt;address&gt;</code></td>
+              <td>
+                It defines contact information for the author of the article or 
+                web page in question. <br>
+                It should not be used for arbitrary physical addresses.
+              </td>
+              <td></td>
+              <td>
+                <ul>
+                  <li>Author's name</li>
+                  <li>Author's e-mail</li>
+                  <li>Author's phone</li>
                 </ul>
               </td>
             </tr>
