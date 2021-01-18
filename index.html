@@ -4,9 +4,203 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Semantic HTML and CSS Ceaht Sheet</title>
+  <title>Semantic HTML and CSS Cheat Sheet</title>
 </head>
 <body>
+  <h1>Semantic HTML and CSS Cheat Sheet</h1>
+
+  <!--Semantic with HTML-->
+  <article>
+    <h2>Semantic HTML</h2>
+
+    <!--Introduction-->
+    <header>
+      <aside>
+        <figure>
+          <img src="./Images/html-sectioning-elements-00c3fd.png" alt="Html sectioning elements">
+          <figcaption>Figure 1. Example of HTML with semantic elements</figcaption>
+        </figure>
+      </aside>
+      <p>
+        <strong>Semantic HTML</strong> introduces meaning to the code we write.
+        Before Semantic HTML the elements didn’t have any 
+        meaning as to what it does or what content goes in it. An element such 
+        as &lt;div&gt; was used as a general&hyphen;purpose element to create 
+        things from headers to footers to articles. With <strong>Semantic HTML</strong> 
+        we were introduced to elements that tell developers and browsers exactly 
+        what it does and what content should go in it.
+      </p>
+      <p>
+        <strong>Semantic HTML</strong> refers to the idea that all your HTML 
+        markup should convey the underlying meaning of your content (not its 
+        appearance). <strong>Sectioning elements</strong> are a set of elements 
+        designed for the sole purpose of adding more meaning to the overall 
+        layout of a web page, and they look something like in figure 1.
+      </p>
+    </header>
+
+    <!--Placement of sectioning elements-->
+    <section>
+      <h3>Element Placement</h3>
+      <p>
+        Semantic HTML introduces elements that can tell developers exactly what the 
+        element does or where it’s placed based on the name of that element. Some of 
+        these elements are <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, 
+        <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>. 
+        <code>&lt;header&gt;</code> describes the content at the top of the page 
+        <code>&lt;body&gt;</code>. It may include a logo, navigational links or a 
+        search bar. <code>&lt;nav&gt;</code> encapsulates the page’s navigational 
+        links. It is often placed inside the <code>&lt;header&gt;</code>or 
+        <code>&lt;footer&gt;</code>. <code>&lt;main&gt;</code> encapsulates the 
+        main content of a page between the header/navigation and the footer areas. 
+        <code>&lt;footer&gt;</code> includes the page’s footer content at the bottom 
+        of the <code>&lt;body&gt;</code>.
+      </p>
+    </section>
+
+    <!--Placement of sectioning elements-->
+    <section>
+      <h3>Sectioning Elements</h3>
+      <figure>
+        <table>
+  
+          <!--Table Headers-->
+          <thead>
+            <tr>
+              <th>Element</th>
+              <th width="150px">Placement</th>
+              <th>Purpose</th>
+              <th width="200px">Content</th>
+            </tr>
+          </thead>
+  
+          <tbody>
+  
+            <!--Header Element-->
+            <tr>
+              <td><code>&lt;header&gt;</code></td>
+              <td>At the beginning</td>
+              <td>
+                Denotes introductory content for a section, article, or entire web 
+                page. 
+              </td>
+              <td>
+                <ul>
+                  <li>Company’s logo</li>
+                  <li>navigational aids</li>
+                  <li>author information</li>
+                </ul>
+              </td>
+            </tr>
+  
+            <!--Footer Element-->
+            <tr>
+              <td><code>&lt;footer&gt;</code></td>
+              <td>At the end</td>
+              <td>
+                Denotes concluding content for a section, article, or entire web 
+                page. 
+              </td>
+              <td>
+                <ul>
+                  <li>Copyright notices</li>
+                  <li>footer navigation</li>
+                  <li>author bios</li>
+                </ul>
+              </td>
+            </tr>
+  
+            <!--Aside Element-->
+            <tr>
+              <td><code>&lt;aside&gt;</code></td>
+              <td>At the side</td>
+              <td>
+                Used to mark additional information that can enhance another 
+                element but isn’t required in order to understand the main content.
+              </td>
+              <td>
+                <ul>
+                  <li>Advertisements</li>
+                  <li>highlighting definitions</li>
+                  <li>quotations</li>
+                </ul>
+              </td>
+            </tr>
+  
+            <!--Nav Element-->
+            <tr>
+              <td><code>&lt;nav&gt;</code></td>
+              <td>Inside header, footer or aside element</td>
+              <td>
+                Lets you mark up the various navigation sections of your website. 
+              </td>
+              <td>
+                <ul>
+                  <li>Main site navigation</li>
+                  <li>links to related pages</li>
+                  <li>tables of content</li>
+                </ul>
+              </td>
+            </tr>
+  
+            <!--Article Element-->
+            <tr>
+              <td><code>&lt;article&gt;</code></td>
+              <td>At the body or inside other element</td>
+              <td>
+                Represents an independent article in a web page. Wraps 
+                content that can be plucked  and distributed in a 
+                different context.
+              </td>
+              <td>
+                <ul>
+                  <li>Text</li>
+                  <li>figures</li>
+                  <li>tables</li>
+                </ul>
+              </td>
+            </tr>
+  
+            <!--Section Element-->
+            <tr>
+              <td><code>&lt;section&gt;</code></td>
+              <td>At the body or inside other element</td>
+              <td>
+                Defines elements in a document
+                with the same theme. It doesn’t need to
+                make sense outside the context of the document.
+              </td>
+              <td>
+                <ul>
+                  <li>Text</li>
+                  <li>figures</li>
+                  <li>tables</li>
+                </ul>
+              </td>
+            </tr>
+  
+            <!--Figure Element-->
+            <tr>
+              <td><code>&lt;figure&gt;</code></td>
+              <td>Inside other sectioning element</td>
+              <td>
+                Represents a self-contained "figure" used to encapsulate media.
+              </td>
+              <td>
+                <ul>
+                  <li>Images</li>
+                  <li>Tables</li>
+                  <li>Diagrams</li>
+                </ul>
+              </td>
+            </tr>
+  
+          </tbody>
+        </table>
+        <figcaption>Table 1: The main sectioning elements of web pages</figcaption>
+      </figure>
+    </section>
+  </article>
 
 </body>
 </html>
